@@ -2,8 +2,6 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
-api_url = "https://api.npoint.io/a6df61b1b1472e048abb"
-data = requests.get(api_url).json()
 
 
 @app.route("/")
